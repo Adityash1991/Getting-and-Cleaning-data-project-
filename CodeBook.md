@@ -1,9 +1,9 @@
 
-SOURCE DATA
+# Source Data
 
 As source data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-R SCRIPT
+# R Script
 
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
 
@@ -30,7 +30,7 @@ Creating an independent tidy data set with the average of each variable for each
 2. Writing tidy data set in txt file
 
 
-VARIABLES:
+# Variables:
 
 1. x_train, y_train, x_test, y_test, sub_train and sub_test contain the data from the downloaded files.
 
