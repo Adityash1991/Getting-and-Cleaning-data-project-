@@ -25,19 +25,19 @@ Using descriptive activity names to name the activities in the data set
 
 Appropriately labeling the data set with descriptive variable names
 
-Creating a second, independent tidy data set with the average of each variable for each activity and each subject
-1. Making second tidy data set
-2. Writing second tidy data set in txt file
+Creating an independent tidy data set with the average of each variable for each activity and each subject
+1. Making tidy data set
+2. Writing tidy data set in txt file
 
 
 VARIABLES:
 
-1.x_train, y_train, x_test, y_test, sub_train and sub_test contain the data from the downloaded files.
+1. x_train, y_train, x_test, y_test, sub_train and sub_test contain the data from the downloaded files.
 
-2.x_data, y_data and sub_data merge the previous datasets to further analysis.
+2. x_data, y_data and sub_data merge the previous datasets to further analysis.
 
-3.features contains the correct names for the x_data dataset .
+3. features contains the correct names for the x_data dataset .
 
-4.merge_train contains cbind of y_train, sub_train and x_train .
+4. merge_train contains cbind of y_train, sub_train and x_train .
 
-5.merge_test contains cbind of y_test, sub_test and x_test.
+5. merge_test contains cbind of y_test, sub_test and x_test.
