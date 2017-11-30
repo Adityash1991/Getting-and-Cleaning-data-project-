@@ -1,9 +1,9 @@
 
-About source data
+SOURCE DATA
 
 As source data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-About R script
+R SCRIPT
 
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
 
@@ -29,10 +29,15 @@ Creating a second, independent tidy data set with the average of each variable f
 1. Making second tidy data set
 2. Writing second tidy data set in txt file
 
-About variables:
+
+VARIABLES:
 
 1.x_train, y_train, x_test, y_test, sub_train and sub_test contain the data from the downloaded files.
+
 2.x_data, y_data and sub_data merge the previous datasets to further analysis.
+
 3.features contains the correct names for the x_data dataset .
+
 4.merge_train contains cbind of y_train, sub_train and x_train .
+
 5.merge_test contains cbind of y_test, sub_test and x_test.
